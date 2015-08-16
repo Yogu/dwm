@@ -30,11 +30,12 @@ static const Rule rules[] = {
 	 */
 	/* class             instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",            NULL,       NULL,       0,            True,        -1 },
-	{ "Firefox",         NULL,       NULL,       1 << 0,       False,       1 },
-	{ "Thunderbird",     NULL,       NULL,       1 << 0,       False,       0 },
-	{ "Skype",           NULL,       NULL,       1 << 0,       False,       0 },
-	{ "VirtualBox",      NULL,       NULL,       1 << 1,       False,       0 },
-	{ "Steam",           NULL,       NULL,       1 << 2,       False,       0 },
+	{ "Firefox",         NULL,       NULL,       1 << 2,       False,       1 },
+	{ "Thunderbird",     NULL,       NULL,       1 << 4,       False,       0 },
+	{ "Skype",           NULL,       NULL,       1 << 5,       False,       0 },
+	{ "Chromium",        NULL,       NULL,       1 << 6,       False,       0 },
+	{ "VirtualBox",      NULL,       NULL,       1 << 7,       False,       0 },
+	{ "Steam",           NULL,       NULL,       1 << 8,       False,       0 },
 };
 
 /* layout(s) */
